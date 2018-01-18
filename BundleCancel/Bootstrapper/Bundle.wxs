@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Wix xmlns="http://schemas.microsoft.com/wix/2006/wi">
+	<Bundle Name="Bootstrapper" Version="1.1.0.0" Manufacturer="HP Inc." UpgradeCode="ab69fb80-bce6-477d-9286-0797dfb41ff6">
+		<BootstrapperApplicationRef Id="WixStandardBootstrapperApplication.RtfLicense" />
+
+		<Chain ParallelCache="no">
+			<!-- TODO: Define the list of chained packages. -->
+			<MsiPackage SourceFile="..\FailingPackage\bin\Debug\FailingPackage.msi" Name="payload\failing\FailingPackage.msi" Compressed="no" />
+      <MsiPackage SourceFile="..\SecondPackage\bin\Debug\SecondPackage.msi" Name="payload\second\SecondPackage.msi" Compressed="no" />
+		</Chain>
+	</Bundle>
+</Wix>

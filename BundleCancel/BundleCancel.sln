@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.16
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{930C7802-8A8C-48F9-8165-68863BCCD9DD}") = "FailingPackage", "FailingPackage\FailingPackage.wixproj", "{33333867-9F29-42C6-A4FF-99FEB5069061}"
+EndProject
+Project("{930C7802-8A8C-48F9-8165-68863BCCD9DD}") = "Bootstrapper", "Bootstrapper\Bootstrapper.wixproj", "{AB69FB80-BCE6-477D-9286-0797DFB41FF6}"
+EndProject
+Project("{930C7802-8A8C-48F9-8165-68863BCCD9DD}") = "SecondPackage", "SecondPackage\SecondPackage.wixproj", "{39C60408-22A5-4433-BF09-1EC3FD86C113}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{33333867-9F29-42C6-A4FF-99FEB5069061}.Debug|x86.ActiveCfg = Debug|x86
+		{33333867-9F29-42C6-A4FF-99FEB5069061}.Debug|x86.Build.0 = Debug|x86
+		{33333867-9F29-42C6-A4FF-99FEB5069061}.Release|x86.ActiveCfg = Release|x86
+		{33333867-9F29-42C6-A4FF-99FEB5069061}.Release|x86.Build.0 = Release|x86
+		{AB69FB80-BCE6-477D-9286-0797DFB41FF6}.Debug|x86.ActiveCfg = Debug|x86
+		{AB69FB80-BCE6-477D-9286-0797DFB41FF6}.Debug|x86.Build.0 = Debug|x86
+		{AB69FB80-BCE6-477D-9286-0797DFB41FF6}.Release|x86.ActiveCfg = Release|x86
+		{AB69FB80-BCE6-477D-9286-0797DFB41FF6}.Release|x86.Build.0 = Release|x86
+		{39C60408-22A5-4433-BF09-1EC3FD86C113}.Debug|x86.ActiveCfg = Debug|x86
+		{39C60408-22A5-4433-BF09-1EC3FD86C113}.Debug|x86.Build.0 = Debug|x86
+		{39C60408-22A5-4433-BF09-1EC3FD86C113}.Release|x86.ActiveCfg = Release|x86
+		{39C60408-22A5-4433-BF09-1EC3FD86C113}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
